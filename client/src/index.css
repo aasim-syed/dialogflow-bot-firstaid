@@ -1,0 +1,44 @@
+* {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+ 
+}
+
+html,
+body {
+  max-height: 800px;
+  background:url('./Live-Motion-Background.svg');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Lato, Helvetica Neue, Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: rgb(22, 202, 31);
+}
+
+.ant-list-item-meta-content {
+  max-width: 500px;
+  overflow-x: scroll;
+  background-color: rgb(149, 236, 153);
+}
+
+.ant-list-item-meta-title {
+  font-size: 20px !important;
+  background-color: aquamarine;
+}
+
+.ant-list-item-meta-description {
+  display: flex;
+  color: rgb(105, 9, 9) !important;
+  background-color: bisque;
+}
+
+button:hover{
+  -webkit-transform: scale(1.2);
+  transition-duration: 0.7s;
+  background-image: linear-gradient(to right, #6b6bd1, #008fec, #00aceb, #00c3d5, #00d6b6, #43dfa6, #6ce693, #92ec7e, #95f077, #99f470, #9ef768, #a3fb5f);
+  
+}
